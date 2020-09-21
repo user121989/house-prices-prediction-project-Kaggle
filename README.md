@@ -3,7 +3,7 @@ Hey everyone!
 
 This project was made for the Kaggle competition “House prices” (link - https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 
-The main goal of the competition is to predict the selling price of a house based on its descriptive parameters. The train data set includes about 80 features and 1460 samples. The most challenging task in this project is to find a way how to reduce amount of variables. My project was made to find an answer for feature reducing question.
+The main goal of the competition is to predict the selling price of a house based on its descriptive parameters. The train data set includes about 80 features and 1460 samples. The most challenging task in this project is to find a way how to reduce amount of variables. My project was made to find an answer for the feature reducing question.
 
 It’s my second iteration for the competition and it’s obvious not the last one. 
 
