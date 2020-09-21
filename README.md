@@ -12,6 +12,6 @@ The first attempt included computation  of the variance inflation factor (VIF). 
 
 The second attempt included another feature selection algorithm - SelectKBest with Chi2. With this algorithm I selected 19 features among 467 (a lot of dummies features) and finally stability among trained model was achieved. The most successful models were RandomForest ('max_depth': 6, 'max_features': 'auto', 'min_samples_leaf': 4, 'n_estimators': 500), and Xgboost ('colsample_bytree': 0.7, 'learning_rate': 0.03, 'max_depth': 7, 'min_child_weight': 4, 'n_estimators': 500, 'nthread': 4, 'objective': 'reg:linear', 'silent': 1, 'subsample': 0.7).
 
-The final result for Xgboost model on the test was 0.16004 Root Mean Squared Logarithmic error
+The final result for Xgboost model on the test data was 0.16004 Root Mean Squared Logarithmic error.
 
 It’s obvious that is not the ideal solution for the problem, for instance I mainly ignored feature engeniring tricks but it can be helpful on the way to improve the final result.  I will further update this page.
